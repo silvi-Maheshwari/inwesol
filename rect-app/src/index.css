@@ -1,0 +1,160 @@
+/* Background with gradient */
+body {
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+/* Form Container */
+.form-container {
+  background: white;
+  padding: 70px;
+  margin-top: 10%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+/* Heading */
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input Fields */
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Textarea */
+.contact-form textarea {
+  height: 80px;
+  resize: none;
+}
+
+/* Button */
+.contact-form button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #45a049;
+}
+
+/* Error Messages */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Error Input Field */
+.error-input {
+  border: 1px solid red !important;
+}
+
+/* Success Message */
+.success-message {
+  color: green;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.blog-container {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.blog-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.blog-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+.read-more {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.read-more:hover {
+  background: #0056b3;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  color: #f8f9fa;
+}
+
